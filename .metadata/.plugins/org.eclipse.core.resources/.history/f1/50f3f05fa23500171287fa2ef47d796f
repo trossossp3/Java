@@ -1,0 +1,29 @@
+package idk;
+
+import java.util.Scanner;
+
+public class ccc {
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		int b = scanner.nextInt();
+		int c = scanner.nextInt();
+		int d = scanner.nextInt();
+		int charge = scanner.nextInt();
+		int sum1 = a + b;
+		int sum2 = c + d;
+		int dif1 = sum1 - sum2;
+		int abs = Math.abs(dif1);
+		if (abs<= charge){
+			System.out.println("Y");
+		} else{
+			System.out.println("N");
+		}
+		
+				
+				
+		
+
+	}
+}

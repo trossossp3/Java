@@ -1,0 +1,163 @@
+package idk;
+
+import static java.lang.Math.sqrt;
+import java.util.Scanner;
+
+public class pyrimsdddsds {
+
+	static Scanner keyboard = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		while (true) {
+			float pi;
+			pi = (float) (3.14);
+			System.out.print("Enter the number that you want. \n 1. Pyramid \n 2. Cone \n 3. Prism");
+			int n99;
+			n99 = keyboard.nextInt();
+			if (n99 == 1) {
+				System.out.println(
+						"This is a programo for pyrmids.\n if you want to find volume then type true \n if you want to find surface area type false");
+				boolean b1 = scanner.nextBoolean();
+				if (b1 == true) {
+					System.out.println("Insert the side length of the base");
+					float n1;
+					n1 = keyboard.nextFloat();
+					float n2;
+					n2 = (n1 * n1);
+					System.out.println("insert the hypoootoooooooooooooooonse of one of the triangles");
+					float n3;
+					n3 = keyboard.nextFloat();
+					float n4;
+					n4 = (n3 * n3); // the hypotneus^2
+					float n5;
+					n5 = (n1 / 2);
+					float n6;
+					n6 = (n5 * n5); // the distance to the middle exponet 2
+					float n7;
+					n7 = (n4 - n6);
+					double n8 = Math.sqrt(n7); // height
+					float n9;
+					n9 = (float) (n2 * n8);
+					float n10;
+					n10 = (float) (0.3333 * n9);
+					System.out.println("the volume is " + n10);
+
+				} else { // surface area
+					System.out.print(
+							"is the base a triangle or square? \n if it is a square then type true \n if it is a triangle then type false");
+					boolean b2 = scanner.nextBoolean();
+					if (b2 == true) {
+						System.out.println("Insert a side length");
+						float n11;
+						n11 = keyboard.nextFloat();
+						float n12;
+						n12 = (n11 * n11); // area of base
+						System.out.println("Insert the hight if the triangle");
+						float n13;
+						n13 = keyboard.nextFloat();
+						float n19;
+						n19 = (float) (n11 * n13); // b*h
+						float n20;
+						n20 = (n19 / 2); // b*h /2
+						float n21;
+						n21 = (n20 * 4); // bh*4
+						float n22;
+						n22 = (n21 + n12); // area triangles + area of base
+						System.out.println("the surface area is" + n22);
+					} else {
+						System.out.println("Insert the base of the bottom face");
+						float n23;
+						n23 = keyboard.nextFloat();
+						System.out.println("Insert the the height of the bottom face");
+						float n24;
+						n24 = keyboard.nextFloat();
+						float n25;
+						n25 = (n23 * n24);
+						float n26;
+						n26 = (n25 / 2); // area of base
+						System.out.println("Insert the hight if the triangle");
+						float n27;
+						n27 = keyboard.nextFloat();
+						float n28;
+						n28 = (float) (n23 * n27); // b*h
+						float n29;
+						n29 = (n28 / 2); // b*h /2
+						float n30;
+						n30 = (n29 * 3); // bh*4
+						float n31;
+						n31 = (n30 + n26); // area triangles + area of base
+						System.out.println("the surface area is " + n31);}
+					}
+				}
+				if (n99 == 2) {
+					System.out.println("Type true for volume \n Type false for surface area");
+					boolean b3 = scanner.nextBoolean();
+					if (b3 == true) {
+						System.out.println("Insert the radius");
+						float n32;
+						n32 = keyboard.nextFloat();
+						float n33;
+						n33 = (n32 * n32); // radius squared
+						System.out.println("Insert the height");
+						float n34;
+						n34 = keyboard.nextFloat();
+						float n35;
+						n35 = (n33 * n34);
+						float n36;
+						n36 = (float) (n35 * pi);
+						float n37;
+						n37 = (float) (n36 * 0.333333333);
+						System.out.println("The volume is " + n37);
+					} else {
+						System.out.print("This is for finding the surface area \n Insert the radius");
+						float n38;
+						n38 = keyboard.nextFloat();
+						System.out.println("Insert the slant height");
+						float n39;
+						n39 = keyboard.nextFloat();
+						float n40;
+						n40 = (n38 * n39); // radius * slant height
+						float n41;
+						n41 = (n40 * pi);
+						float n42;
+						n42 = (n38 * n38); // radius ^2
+						float n43;
+						n43 = (n42 * pi);
+						float n44;
+						n44 = (n43 + n41);
+						System.out.println("The surface area is " + n44);
+					}
+				}
+				if (n99 == 3) {
+					System.out.println("Type true for volume \n Type false for surface area");
+					boolean b3 = scanner.nextBoolean();
+					if (b3 == true) {
+						System.out.println("Insert the base of the base");
+						float n45;
+						n45 = keyboard.nextFloat();
+						System.out.println("Insert the height of the base");
+						float n46;
+						n46 = keyboard.nextFloat();
+						float n47;
+						n47 = (n45 * n46);
+						float n48;
+						n48 = (n47 / 2);
+						System.out.println("Insert the depth/height of the prism");
+						float n49;
+						n49 = keyboard.nextFloat();
+						float n50;
+						n50 = (n49 * n48);
+						System.out.println("The volume is " + n50);
+					} else {
+
+					}
+
+				}
+
+			}
+		}
+
+	}
+
+}

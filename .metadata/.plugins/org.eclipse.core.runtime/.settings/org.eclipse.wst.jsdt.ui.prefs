@@ -1,0 +1,14 @@
+CONTENT_ASSIST_BACKGROUND_COLOR=52,57,61
+CONTENT_ASSIST_FOREGROUND_COLOR=238,238,238
+content_assist_parameters_background=52,57,61
+content_assist_parameters_foreground=238,238,238
+content_assist_proposals_background=52,57,61
+content_assist_proposals_foreground=238,238,238
+eclipse.preferences.version=1
+overriddenByCSS=,CONTENT_ASSIST_BACKGROUND_COLOR,CONTENT_ASSIST_FOREGROUND_COLOR,content_assist_parameters_background,content_assist_parameters_foreground,content_assist_proposals_background,content_assist_proposals_foreground,
+semanticHighlighting.deprecatedMember.color=171,31,54
+semanticHighlighting.method.bold=true
+semanticHighlighting.method.color=167,236,33
+semanticHighlighting.method.enabled=true
+semanticHighlighting.parameterVariable.color=121,171,255
+semanticHighlighting.parameterVariable.enabled=true
