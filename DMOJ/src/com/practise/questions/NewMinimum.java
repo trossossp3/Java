@@ -1,6 +1,5 @@
-package com.practise.questions;
+package com.practise.questions; // make more efficient 
 
-import java.util.LinkedList;
 import java.util.Collections;
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -19,7 +18,7 @@ public class NewMinimum {
 			int n3 = ints.indexOf(Collections.min(ints));
 			System.out.println(n2);
 			ints.remove(n3);
-		
+
 		}
 
 	}
