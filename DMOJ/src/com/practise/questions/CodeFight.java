@@ -1,7 +1,7 @@
 package com.practise.questions;
 
 import java.util.Scanner;
-
+// i cant make the outputs after all the inputs
 public class CodeFight {
 	public static int[] arr;
 
