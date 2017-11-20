@@ -35,7 +35,7 @@ public class BubbleSort {
 	}
 
 	public static void main(String[] args) {
-		int array[] = new int[]{12,122};
+		int array[] = new int[]{7876868, 6, 5678, 34567, 53534};
 		bubble(array);
 	}
 

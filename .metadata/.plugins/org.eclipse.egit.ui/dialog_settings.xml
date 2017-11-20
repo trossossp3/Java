@@ -8,6 +8,34 @@
 	<list key="RepositorySelectionPage.UsedUris">
 		<item value="https://github.com/trossossp3.git"/>
 	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.DeleteBranchDialog.dialogBounds">
+		<item value="700" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="534" key="DIALOG_HEIGHT"/>
+		<item value="739" key="DIALOG_X_ORIGIN"/>
+		<item value="348" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="GitImportWizard">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.repository.CreateBranchPage$SourceSelectionDialog.dialogBounds">
+		<item value="700" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="534" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="-144" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Development\GitHub\Contests\.git">
+			<item value="false"/>
+			<item value="trossossp3 &lt;21trossos@gmail.com&gt;"/>
+			<item value="first commit"/>
+			<item value="trossossp3 &lt;21trossos@gmail.com&gt;"/>
+			<item value="922937546af195c8bdc8a7047c99e86ee91d4a68"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="200,200" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="200,200" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
 	</section>
 </section>
