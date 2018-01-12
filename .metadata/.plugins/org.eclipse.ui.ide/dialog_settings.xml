@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Dev\Java\JavaMISC"/>
 		<item value="C:\Users\trossos\Google Drive\Eclipse\idk"/>
 		<item value="C:\Users\trossos\Google Drive\Eclipse\CCCpractisee"/>
 	</list>
