@@ -1,3 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\Development\\GitHub\\Java\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
+GitRepositoriesView.GitDirectories=C\:\\Dev\\Contests\\.git;C\:\\Dev\\Java\\JavaMISC\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Dev\\Contests\\.git;.git;
+RepositorySearchDialogSearchPath=C\:\\Dev\\Contests
 eclipse.preferences.version=1

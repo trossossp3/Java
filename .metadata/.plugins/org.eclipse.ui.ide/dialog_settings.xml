@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Dev\Java\Contests\ECOO_2018"/>
+		<item value="C:\Dev\Java\Cipher"/>
 		<item value="C:\Dev\Java\JavaMISC\ProgramingClub\data"/>
 		<item value="C:\Dev\Java\JavaMISC"/>
 		<item value="C:\Users\trossos\Google Drive\Eclipse\idk"/>
@@ -12,6 +14,7 @@
 	</section>
 	<section name="WORKBENCH_SETTINGS">
 		<list key="ENABLED_TRANSFERS">
+			<item value="org.eclipse.ui.workbenchTransfer"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
@@ -23,7 +26,7 @@
 		</list>
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
-		<item value="859" key="DIALOG_X_ORIGIN"/>
+		<item value="756" key="DIALOG_X_ORIGIN"/>
 		<item value="409" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="BasicNewProjectResourceWizard">

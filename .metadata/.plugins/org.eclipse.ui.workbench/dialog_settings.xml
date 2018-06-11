@@ -2,24 +2,28 @@
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
 		<item value="614" key="DIALOG_X_ORIGIN"/>
-		<item value="196" key="DIALOG_Y_ORIGIN"/>
+		<item value="10" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="250" key="dialogHeight"/>
 		<item value="350" key="dialogWidth"/>
 		<list key="textEntries">
 			<item value="1"/>
+			<item value="1"/>
 			<item value="2"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.preferences.CodeAssistPreferenceAdvanced"/>
 			<item value="org.eclipse.jdt.ui.preferences.JavadocProblemsPreferencePage"/>
 			<item value="org.eclipse.ui.editors.preferencePages.Accessibility"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.ui.preferences"/>
 			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textArray">
+			<item value="prefe"/>
 			<item value="java doc"/>
 			<item value="general"/>
 			<item value="pre"/>
