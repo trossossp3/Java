@@ -17,7 +17,7 @@ public class Main {
 		for (int i=0; i<n1; i++) {
 			arr[i][2] = sc.nextInt();
 			
-		}
+		}tetststwetst
 				
 		
 		}
